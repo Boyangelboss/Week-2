@@ -1,0 +1,41 @@
+body,
+* {
+  box-sizing: border-box;
+}
+
+#recipe-form {
+  display: block;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 16px;
+
+  width: 100%;
+  max-width: 320px;
+}
+
+#recipe-form > *:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.form-heading {
+  margin: 0;
+}
+
+.submit-btn {
+  display: block;
+  background: none;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin: 0 auto;
+  background-color: #0f75b9;
+  color: white;
+}
+
+.text-area {
+  display: block;
+  border-radius: 4px;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 320px;
+}

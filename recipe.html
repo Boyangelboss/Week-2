@@ -3,18 +3,19 @@
   <head>
     <meta name="viewpoint content= width=divice-width, initial-scale=1.0 " />
     <title>The Cook Book</title>
+    <link rel="stylesheet" href="styles/main.css" />
   </head>
 
-  <body style="background-color: cyan">
-    <h1 style="color: #000000">Insert your recipes</h1>
+  <body>
+    <h1 class="form-title">Insert your recipes</h1>
     <form id="recipe-form">
+      <h3 class="form-heading">New Recipe</h3>
       <textarea
-        rows="25"
-        cols="60"
         placeholder="Enter your recipe here..."
         id="recipe-input"
+        class="text-area"
       ></textarea>
-      <button type="submit" style="color: #000000">Add recipe</button>
+      <button type="submit" class="submit-btn">Add recipe</button>
     </form>
 
     <div>
